@@ -7,7 +7,10 @@ from selenium.webdriver.common.keys import Keys
 class SeleniumSakai(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
+
+    def tearDown(self):
+        self.driver.close()
 
     def test_login(self):
         self.driver.get('https://qa1-us.nightly.sakaiproject.org/portal')

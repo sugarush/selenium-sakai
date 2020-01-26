@@ -2,15 +2,15 @@
 
 ## Installation
 
-Make sure you have Firefox installed.
+Make sure you have Google Chrome installed.
 
 Then, install Selenium:
 
 `pip install selenium`
 
-Selenium requires a driver to work with a browser, so install the Firefox driver with the following command:
+Selenium requires a driver to work with a browser, so install the Google Chrome driver with the following command:
 
-`brew install geckodriver`
+`brew cask install chromedriver`
 
 ## Pre-Testing
 
